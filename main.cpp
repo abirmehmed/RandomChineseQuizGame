@@ -47,8 +47,8 @@ int main() {
     int i,j,tmp;
 
 
-	// define variables
-	string Chin,Phyn,Mean; //variables from file are here
+	
+	string Chin,Phyn,Mean; 
 	vector<string>Chi;
 	vector<string>Phy;
 	vector<string>Mn;
@@ -62,7 +62,7 @@ int main() {
 	int l = 0;
 
 	ifstream coeff("asdf.txt"); //opening the file.
-	if (coeff.is_open()) //if the file is open
+	if (coeff.is_open()) 
 	{
 		//ignore first line
 		string line;
